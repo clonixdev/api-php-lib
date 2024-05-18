@@ -1,5 +1,5 @@
 {
-    "name": "plesk/api-php-lib",
+    "name": "clonixdev/api-php-lib",
     "type": "library",
     "description": "PHP object-oriented library for Plesk XML-RPC API",
     "license": "Apache-2.0",
@@ -54,5 +54,11 @@
         "branch-alias": {
             "dev-master": "2.0.x-dev"
         }
+    },
+	"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/clonixdev/api-php-lib"
     }
+]
 }
