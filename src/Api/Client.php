@@ -460,6 +460,11 @@ class Client
         return $this->getOperator('Subdomain');
     }
 
+	public function ftpUser(): Operator\FtpUser
+    {
+        return $this->getOperator('FtpUser');
+    }
+	
     public function dns(): Operator\Dns
     {
         return $this->getOperator('Dns');
